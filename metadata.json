@@ -1,0 +1,6 @@
+{
+  "name": "Bé Vui Học Chính Tả",
+  "description": "Ứng dụng kiểm tra và luyện chính tả tiếng Việt tương tác, vui nhộn dành cho học sinh tiểu học lớp 1-5",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

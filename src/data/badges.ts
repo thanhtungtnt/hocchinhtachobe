@@ -1,0 +1,60 @@
+import { Badge } from '../types';
+
+export const BADGES: Badge[] = [
+  {
+    id: 'badge-first',
+    name: '🌟 Bắt đầu nào!',
+    description: 'Hoàn thành bài luyện tập chính tả đầu tiên.',
+    icon: '🌟',
+    requirement: 'Hoàn thành 1 bài tập',
+    category: 'practice',
+  },
+  {
+    id: 'badge-5-lessons',
+    name: '✏️ Bé chăm học',
+    description: 'Chăm chỉ hoàn thành 5 bài kiểm tra chính tả.',
+    icon: '✏️',
+    requirement: 'Hoàn thành 5 bài tập',
+    category: 'practice',
+  },
+  {
+    id: 'badge-perfect-100',
+    name: '🏆 Vua chính tả',
+    description: 'Đạt điểm tuyệt đối 100/100 trong một bài kiểm tra!',
+    icon: '🏆',
+    requirement: 'Đạt 100 điểm trong 1 bài',
+    category: 'accuracy',
+  },
+  {
+    id: 'badge-streak-3',
+    name: '🔥 Siêu chăm chỉ',
+    description: 'Duy trì chuỗi học liên tiếp 3 ngày.',
+    icon: '🔥',
+    requirement: 'Chuỗi học 3 ngày',
+    category: 'streak',
+  },
+  {
+    id: 'badge-rabbit-ears',
+    name: '🐰 Đôi tai thỏ',
+    description: 'Nghe chuẩn xác và viết đúng 5 câu liên tiếp không sai một từ!',
+    icon: '🐰',
+    requirement: '5 câu đúng liên tiếp',
+    category: 'accuracy',
+  },
+  {
+    id: 'badge-weak-words-hero',
+    name: '🎯 Dũng sĩ sửa lỗi',
+    description: 'Luyện tập và sửa đúng 5 từ từng viết sai.',
+    icon: '🎯',
+    requirement: 'Sửa thành công 5 từ sai',
+    category: 'mastery',
+  },
+  {
+    id: 'badge-grade-master',
+    name: '🎓 Trạng nguyên nhí',
+    description: 'Tích lũy được trên 500 điểm kinh nghiệm chính tả.',
+    icon: '🎓',
+    requirement: 'Đạt 500 XP',
+    category: 'mastery',
+  },
+];
